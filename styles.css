@@ -1,0 +1,59 @@
+/* Estilos globais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5FF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #29487D;
+  }
+  
+  /* Seção de pesquisa */
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  input[type="text"] {
+    padding: 1rem;
+    border: 1px solid #C8DFFD;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  button {
+    background-color: #29487D;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1A3565;
+  }
+  
+  /* Rodapé */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #C8DFFD;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
