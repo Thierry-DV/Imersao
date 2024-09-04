@@ -1,1 +1,1 @@
-console.log("KSCERATO");
+console.log(dados);
